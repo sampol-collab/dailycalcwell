@@ -1,0 +1,7 @@
+# Google AdSense ads.txt configuration
+# ------------------------------------------------------------------
+# Once your Google AdSense account is approved and you receive your
+# publisher ID (format: pub-0000000000000000), replace the commented
+# line below with your official AdSense entry and remove the leading '#':
+#
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

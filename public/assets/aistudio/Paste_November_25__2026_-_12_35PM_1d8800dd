@@ -1,0 +1,3003 @@
+MASTER DEVELOPMENT PROMPT: PROFESSIONAL SEO-FIRST CALCULATOR WEBSITE
+
+1. Role and objective
+
+Act as a senior full-stack Next.js developer, technical SEO specialist, UI/UX designer, website performance engineer and Google AdSense readiness consultant.
+
+Build a complete, production-ready, professional online calculator platform targeting users in both India and the United States.
+
+The website must provide two categories only:
+
+
+
+
+
+Everyday Calculators
+
+
+
+Health Calculators
+
+The primary business objective is to build a search-engine-friendly calculator website that can attract organic traffic from Google, deliver excellent user experience, and become eligible for Google AdSense monetization.
+
+Do not create just a UI demonstration or static prototype. Implement fully functional calculators, navigation, SEO metadata, responsive layouts, validation, accessibility, and all supporting website functionality.
+
+Work with the existing project if one exists. Inspect its structure before making changes. Do not unnecessarily replace working code.
+
+2. Technology stack
+
+Use:
+
+
+
+
+
+Next.js with App Router
+
+
+
+TypeScript
+
+
+
+React
+
+
+
+Tailwind CSS
+
+
+
+Lucide React icons
+
+
+
+Next.js Metadata API
+
+
+
+Next.js Image component where appropriate
+
+
+
+Netlify for deployment
+
+
+
+GitHub for source control
+
+Use stable, compatible package versions.
+
+Prefer Server Components by default. Use Client Components only where interactivity is required, such as calculators, search, navigation menus and interactive controls.
+
+Use semantic HTML and accessible components.
+
+Avoid unnecessary dependencies and large client-side JavaScript bundles.
+
+3. Website design and branding
+
+Create a clean, modern, professional calculator website.
+
+Colour scheme
+
+
+
+
+
+Main background: pure white (#FFFFFF).
+
+
+
+Primary button: bright sky blue (#38BDF8 or a similar accessible sky-blue shade).
+
+
+
+Button hover: slightly darker sky blue.
+
+
+
+Main text: dark navy or charcoal.
+
+
+
+Secondary text: neutral grey.
+
+
+
+Cards: white with subtle light-grey borders.
+
+
+
+Input fields: white with subtle grey borders.
+
+
+
+Focus states: clearly visible blue outline.
+
+
+
+Success and error states: accessible green and red.
+
+Use bright colours tastefully without making the website look childish.
+
+Design requirements
+
+
+
+
+
+Minimal and professional appearance.
+
+
+
+Consistent spacing and typography.
+
+
+
+Rounded calculator cards.
+
+
+
+Soft shadows only where useful.
+
+
+
+Clear visual hierarchy.
+
+
+
+Responsive layouts.
+
+
+
+Excellent mobile experience.
+
+
+
+No unnecessary animations.
+
+
+
+No intrusive pop-ups.
+
+
+
+No distracting advertisements.
+
+
+
+No excessive gradients.
+
+
+
+No dark background as the default theme.
+
+Header
+
+Create a responsive header containing:
+
+
+
+
+
+Website logo and name.
+
+
+
+Home.
+
+
+
+Everyday Calculators.
+
+
+
+Health Calculators.
+
+
+
+About Us.
+
+
+
+Contact Us.
+
+Include a calculator search field or accessible search button.
+
+The header should work properly on desktop, tablets and mobile devices.
+
+Footer
+
+Include:
+
+
+
+
+
+About Us
+
+
+
+Contact Us
+
+
+
+Privacy Policy
+
+
+
+Terms and Conditions
+
+
+
+Disclaimer
+
+
+
+Editorial Policy
+
+
+
+Cookie Policy
+
+
+
+Sitemap
+
+
+
+Calculator categories
+
+
+
+Copyright information
+
+All footer links must work.
+
+4. Homepage
+
+Create an SEO-friendly homepage with the following sections:
+
+
+
+
+
+Header and navigation.
+
+
+
+Hero section with a clear H1 heading.
+
+
+
+Short explanation of the website.
+
+
+
+Prominent calculator search box.
+
+
+
+Everyday Calculators category.
+
+
+
+Health Calculators category.
+
+
+
+Popular calculators.
+
+
+
+Recently added calculators.
+
+
+
+Short educational introduction explaining how to use the tools.
+
+
+
+Frequently asked questions relevant to the website.
+
+
+
+Footer with all important links.
+
+Example homepage H1:
+
+"Free Online Calculators for Everyday Life and Health"
+
+Example introductory description:
+
+"Use our free online calculators to calculate percentages, averages, age, dates, BMI, daily calorie requirements, pregnancy dates and more. Get quick, accurate and easy-to-understand results."
+
+Do not stuff keywords unnaturally.
+
+Each homepage category card must link to its relevant category page.
+
+Each calculator card must navigate directly to its individual calculator URL.
+
+5. Calculator categories and tools
+
+Build the following calculators.
+
+A. Everyday Calculators
+
+
+
+
+
+Percentage Calculator
+
+
+
+
+
+Calculate X percent of a number.
+
+
+
+Calculate what percentage one number is of another.
+
+
+
+Percentage increase.
+
+
+
+Percentage decrease.
+
+
+
+Percentage difference.
+
+
+
+Percentage change.
+
+
+
+Clear examples and formulas.
+
+
+
+Average Calculator
+
+
+
+
+
+Arithmetic mean.
+
+
+
+Weighted average.
+
+
+
+Average of multiple numbers.
+
+
+
+Add and remove input fields.
+
+
+
+Handle decimals.
+
+
+
+Explain the calculation.
+
+
+
+Age Calculator
+
+
+
+
+
+Date of birth input.
+
+
+
+Calculate exact age in years, months and days.
+
+
+
+Total days lived.
+
+
+
+Next birthday.
+
+
+
+Days remaining until next birthday.
+
+
+
+Validate future birth dates.
+
+
+
+Date Calculator
+
+
+
+
+
+Add days, weeks, months and years.
+
+
+
+Subtract days, weeks, months and years.
+
+
+
+Handle leap years and month-end dates correctly.
+
+
+
+Days Between Dates Calculator
+
+
+
+
+
+Calculate difference between two dates.
+
+
+
+Option to include or exclude the end date.
+
+
+
+Display total days and weeks.
+
+
+
+Discount Calculator
+
+
+
+
+
+Original price.
+
+
+
+Discount percentage.
+
+
+
+Discount amount.
+
+
+
+Final price.
+
+
+
+Support multiple currencies where appropriate.
+
+
+
+Profit and Loss Calculator
+
+
+
+
+
+Cost price.
+
+
+
+Selling price.
+
+
+
+Profit or loss amount.
+
+
+
+Profit or loss percentage.
+
+
+
+Profit margin and markup.
+
+
+
+Ratio Calculator
+
+
+
+
+
+Simplify ratios.
+
+
+
+Compare ratios.
+
+
+
+Find missing ratio values.
+
+
+
+Support multiple numbers.
+
+
+
+Fraction Calculator
+
+
+
+
+
+Addition.
+
+
+
+Subtraction.
+
+
+
+Multiplication.
+
+
+
+Division.
+
+
+
+Simplify fractions.
+
+
+
+Display mixed numbers where appropriate.
+
+
+
+Time Calculator
+
+
+
+
+
+Add hours and minutes.
+
+
+
+Subtract hours and minutes.
+
+
+
+Display results clearly.
+
+
+
+Time Duration Calculator
+
+
+
+
+
+Start time.
+
+
+
+End time.
+
+
+
+Duration in hours and minutes.
+
+
+
+Handle overnight time intervals.
+
+
+
+Unit Converter
+
+
+
+
+
+Length.
+
+
+
+Weight and mass.
+
+
+
+Temperature.
+
+
+
+Volume.
+
+
+
+Speed.
+
+
+
+Area.
+
+
+
+Include commonly used metric and imperial units.
+
+B. Health Calculators
+
+
+
+
+
+BMI Calculator
+
+
+
+
+
+Height in centimetres or feet/inches.
+
+
+
+Weight in kilograms or pounds.
+
+
+
+Metric and imperial support.
+
+
+
+BMI calculation.
+
+
+
+Appropriate adult BMI category interpretation.
+
+
+
+Explain that BMI is a screening measure, not a diagnosis.
+
+
+
+Clearly distinguish adult BMI from child BMI.
+
+
+
+BMR Calculator
+
+
+
+
+
+Use the Mifflin-St Jeor formula.
+
+
+
+Inputs: age, sex used by the formula, height and weight.
+
+
+
+Display estimated basal metabolic rate.
+
+
+
+Explain the formula and its limitations.
+
+
+
+TDEE Calculator
+
+
+
+
+
+Calculate estimated total daily energy expenditure.
+
+
+
+Include activity levels.
+
+
+
+Show estimated maintenance calories.
+
+
+
+Explain that results are estimates.
+
+
+
+Calorie Calculator
+
+
+
+
+
+Estimate daily calorie requirements.
+
+
+
+Optional goal: maintain, lose or gain weight.
+
+
+
+Display the assumptions used.
+
+
+
+Avoid unsafe extreme calorie recommendations.
+
+
+
+Ideal Weight Calculator
+
+
+
+
+
+Show estimates from recognised formulas.
+
+
+
+Explain that there is no single ideal weight for everyone.
+
+
+
+Avoid presenting the result as a medical recommendation.
+
+
+
+Body Fat Calculator
+
+
+
+
+
+Estimate body fat using an appropriate documented method.
+
+
+
+Clearly identify the formula and required measurements.
+
+
+
+Explain limitations and measurement uncertainty.
+
+
+
+Protein Calculator
+
+
+
+
+
+Calculate estimated daily protein requirements.
+
+
+
+Allow users to select a general activity or fitness goal.
+
+
+
+Explain that requirements vary by individual circumstances.
+
+
+
+Do not prescribe medical nutrition plans.
+
+
+
+Water Intake Calculator
+
+
+
+
+
+Provide a general hydration estimate.
+
+
+
+Explain that individual fluid needs vary with climate, activity and health.
+
+
+
+Avoid presenting the result as a medical prescription.
+
+
+
+Pregnancy Weeks to Months Calculator
+
+
+
+
+
+Convert pregnancy weeks and days into an approximate pregnancy month.
+
+
+
+Show trimester.
+
+
+
+Explain that pregnancy months are approximate and weeks are more precise.
+
+
+
+Do not confuse calendar months with standard pregnancy-week groupings.
+
+
+
+Pregnancy Due Date Calculator
+
+
+
+
+
+Last menstrual period date.
+
+
+
+Estimated due date.
+
+
+
+Current pregnancy week and day.
+
+
+
+Estimated trimester.
+
+
+
+Explain the standard 280-day assumption.
+
+
+
+Explain that actual due dates may differ and clinical dating may be more accurate.
+
+
+
+Pregnancy Calculator
+
+
+
+
+
+Calculate current gestational age.
+
+
+
+Display weeks and days.
+
+
+
+Show estimated pregnancy progress.
+
+
+
+Show estimated due date.
+
+
+
+Allow a due-date or last-menstrual-period calculation method.
+
+
+
+Clearly label all results as estimates.
+
+
+
+Ovulation Calculator
+
+
+
+
+
+Last menstrual period.
+
+
+
+Average menstrual cycle length.
+
+
+
+Estimated next period.
+
+
+
+Estimated ovulation date.
+
+
+
+Estimated fertile window.
+
+
+
+Clearly explain that calendar-based estimates are not reliable contraception.
+
+Important health requirements:
+
+
+
+
+
+Do not diagnose medical conditions.
+
+
+
+Do not guarantee pregnancy dates, ovulation or fertility.
+
+
+
+Do not provide treatment advice.
+
+
+
+Explain assumptions and limitations.
+
+
+
+Include appropriate medical disclaimers.
+
+
+
+Use reputable sources for formulas and health information.
+
+
+
+Do not collect or store sensitive user inputs unnecessarily.
+
+
+
+Run calculations locally in the browser whenever possible.
+
+6. Individual calculator pages: extremely important
+
+Every calculator must have its own permanent, indexable URL.
+
+Use these URL structures:
+
+Everyday:
+
+
+
+
+
+/percentage-calculator/
+
+
+
+/average-calculator/
+
+
+
+/age-calculator/
+
+
+
+/date-calculator/
+
+
+
+/days-between-dates-calculator/
+
+
+
+/discount-calculator/
+
+
+
+/profit-loss-calculator/
+
+
+
+/ratio-calculator/
+
+
+
+/fraction-calculator/
+
+
+
+/time-calculator/
+
+
+
+/time-duration-calculator/
+
+
+
+/unit-converter/
+
+Health:
+
+
+
+
+
+/bmi-calculator/
+
+
+
+/bmr-calculator/
+
+
+
+/tdee-calculator/
+
+
+
+/calorie-calculator/
+
+
+
+/ideal-weight-calculator/
+
+
+
+/body-fat-calculator/
+
+
+
+/protein-calculator/
+
+
+
+/water-intake-calculator/
+
+
+
+/pregnancy-weeks-to-months/
+
+
+
+/pregnancy-due-date-calculator/
+
+
+
+/pregnancy-calculator/
+
+
+
+/ovulation-calculator/
+
+Direct Google search navigation
+
+This is a critical requirement.
+
+If a person searches Google for "BMI calculator" and clicks our BMI search result, the visitor must land directly on:
+
+https://YOURDOMAIN.com/bmi-calculator/
+
+They must not be forced to visit the homepage first.
+
+The same applies to every other calculator.
+
+Do not build the entire website as a single-page application with only one URL.
+
+Do not use modal-only calculators.
+
+Do not make calculator access dependent on homepage navigation.
+
+Every calculator must render correctly when:
+
+
+
+
+
+Opened directly from Google.
+
+
+
+Opened through a copied URL.
+
+
+
+Refreshed in the browser.
+
+
+
+Opened in a new tab.
+
+
+
+Accessed from a mobile device.
+
+Configure Netlify correctly so that direct requests to all Next.js routes work.
+
+7. SEO: highest priority
+
+Implement technical, on-page and content SEO from the beginning.
+
+A. Metadata for every page
+
+Use the Next.js Metadata API.
+
+Every indexable page must have:
+
+
+
+
+
+Unique SEO title.
+
+
+
+Unique meta description.
+
+
+
+Canonical URL.
+
+
+
+Appropriate robots metadata.
+
+
+
+Open Graph title.
+
+
+
+Open Graph description.
+
+
+
+Open Graph image.
+
+
+
+Twitter/X card metadata where appropriate.
+
+Do not use the same title and description across every calculator page.
+
+Create a reusable SEO metadata system.
+
+Example BMI page:
+
+Title: BMI Calculator – Calculate Body Mass Index Online
+
+Description: Calculate your BMI using your height and weight. Choose metric or imperial units, view your BMI category and understand how the calculation works.
+
+Example age page:
+
+Title: Age Calculator – Calculate Your Exact Age in Years, Months and Days
+
+Description: Find your exact age from your date of birth. Calculate years, months, days and the time remaining until your next birthday.
+
+Example percentage page:
+
+Title: Percentage Calculator – Calculate Percentages Online
+
+Description: Calculate percentages, percentage increase, decrease and percentage difference with our free online percentage calculator.
+
+Write natural, relevant metadata for every individual calculator.
+
+Do not promise that Google will display the exact metadata.
+
+B. Technical SEO
+
+Implement:
+
+
+
+
+
+Server-rendered or statically generated HTML for indexable content.
+
+
+
+Correct semantic HTML.
+
+
+
+One clear H1 per page.
+
+
+
+Logical H2 and H3 structure.
+
+
+
+Descriptive URL slugs.
+
+
+
+Canonical URLs.
+
+
+
+XML sitemap.
+
+
+
+robots.txt.
+
+
+
+Proper internal linking.
+
+
+
+Breadcrumb navigation.
+
+
+
+Breadcrumb structured data.
+
+
+
+Organization structured data where appropriate.
+
+
+
+WebSite structured data for the site identity.
+
+
+
+Appropriate structured data only where eligible and truthful.
+
+
+
+Image alt attributes.
+
+
+
+Correct HTTP status codes.
+
+
+
+Custom 404 page.
+
+
+
+HTTPS support.
+
+
+
+Redirect handling.
+
+
+
+No broken internal links.
+
+
+
+No accidental duplicate pages.
+
+
+
+No accidental noindex on important pages.
+
+Do not create fake ratings, fake reviews, fake authors or misleading structured data.
+
+Do not add deprecated or unsupported Google search features.
+
+C. Favicon and website identity
+
+Create a professional original favicon and website logo.
+
+Provide suitable icon files, including:
+
+
+
+
+
+favicon.ico
+
+
+
+icon.png
+
+
+
+apple-icon.png
+
+
+
+A high-resolution square favicon, preferably at least 48 × 48 pixels.
+
+
+
+Appropriate web app icons if needed.
+
+Place the files in the correct Next.js public or app metadata locations.
+
+Implement correct icon metadata.
+
+Create a favicon that is:
+
+
+
+
+
+Square.
+
+
+
+Recognisable at small sizes.
+
+
+
+Consistent with the website brand.
+
+
+
+Visually simple.
+
+
+
+Sky-blue and white themed.
+
+Do not use a random default framework favicon.
+
+Google may take time to recrawl the website and is not guaranteed to display a favicon.
+
+D. Search result presentation
+
+Optimise the elements that influence how the website appears in Google:
+
+
+
+
+
+Favicon.
+
+
+
+Website name.
+
+
+
+Page title.
+
+
+
+URL structure.
+
+
+
+Meta description and page snippet.
+
+
+
+Breadcrumbs where supported.
+
+
+
+Consistent brand identity.
+
+Use appropriate structured data and follow Google's official documentation.
+
+Do not promise special search result features that Google does not guarantee.
+
+E. Internal linking
+
+Create a strong internal linking system.
+
+Every calculator page should include:
+
+
+
+
+
+Breadcrumbs.
+
+
+
+Link to its category.
+
+
+
+Related calculators.
+
+
+
+Popular calculators.
+
+
+
+Link to homepage.
+
+
+
+Links to relevant educational explanations.
+
+Example:
+
+BMI Calculator page:
+
+
+
+
+
+Link to BMR Calculator.
+
+
+
+Link to TDEE Calculator.
+
+
+
+Link to Ideal Weight Calculator.
+
+
+
+Link to Calorie Calculator.
+
+Pregnancy pages should link to relevant pregnancy calculators.
+
+Every important calculator must be discoverable through ordinary crawlable HTML links.
+
+Avoid orphan pages.
+
+F. Unique content on every calculator page
+
+Do not create thin pages containing only an input form and a result.
+
+Each calculator page must have useful, original, relevant content.
+
+Use a reusable content layout, but write genuinely calculator-specific content.
+
+Include:
+
+
+
+
+
+H1 heading.
+
+
+
+Short introduction.
+
+
+
+Working calculator.
+
+
+
+Explanation of the result.
+
+
+
+Formula used.
+
+
+
+Step-by-step calculation explanation.
+
+
+
+Worked example with realistic values.
+
+
+
+How to use the calculator.
+
+
+
+Important assumptions and limitations.
+
+
+
+Related calculators.
+
+
+
+Relevant FAQs.
+
+
+
+Relevant references or sources.
+
+Content must answer the questions a real visitor may have.
+
+Avoid keyword stuffing, repetitive filler, generic AI-generated paragraphs and mass-produced near-duplicate pages.
+
+Do not publish empty or unfinished calculator pages.
+
+G. Keyword targeting
+
+Design every page around a distinct primary search intent.
+
+Examples:
+
+BMI:
+
+
+
+
+
+BMI calculator
+
+
+
+Calculate BMI
+
+
+
+Body mass index calculator
+
+
+
+BMI calculator kg and cm
+
+
+
+BMI calculator pounds and feet
+
+Age:
+
+
+
+
+
+Age calculator
+
+
+
+Calculate age from date of birth
+
+
+
+Age in years months and days
+
+
+
+Date of birth calculator
+
+Percentage:
+
+
+
+
+
+Percentage calculator
+
+
+
+Calculate percentage
+
+
+
+Percentage increase calculator
+
+
+
+Percentage decrease calculator
+
+Pregnancy:
+
+
+
+
+
+Pregnancy weeks to months
+
+
+
+Pregnancy calculator
+
+
+
+Pregnancy due date calculator
+
+
+
+How many weeks pregnant am I
+
+Use keyword research before finalising page titles and content.
+
+Do not invent search volume or keyword difficulty data.
+
+Target India and the United States without creating unnecessary duplicate country pages.
+
+Use metric and imperial units where relevant.
+
+Use INR and USD only where currency is relevant.
+
+Use region-specific explanations only when they add real value.
+
+8. Search engine indexing and Google tools
+
+Prepare the website for:
+
+Google Search Console
+
+
+
+
+
+Create an XML sitemap.
+
+
+
+Make all important pages discoverable.
+
+
+
+Ensure robots.txt does not block important pages.
+
+
+
+Ensure canonical URLs are correct.
+
+
+
+Ensure production pages are indexable.
+
+
+
+Provide instructions for domain/property verification.
+
+
+
+Provide instructions to submit the sitemap.
+
+
+
+Provide instructions to inspect individual URLs.
+
+
+
+Provide instructions to request indexing when appropriate.
+
+Google Analytics 4
+
+
+
+
+
+Add an optional GA4 measurement ID through environment variables.
+
+
+
+Track page views.
+
+
+
+Track calculator usage events.
+
+
+
+Track calculation completion events.
+
+
+
+Track calculator category navigation.
+
+
+
+Track outbound clicks where appropriate.
+
+Respect applicable privacy and consent requirements.
+
+Do not collect personal health inputs as analytics event parameters.
+
+Bing Webmaster Tools
+
+Prepare the site for Bing indexing.
+
+Include instructions for:
+
+
+
+
+
+Site verification.
+
+
+
+Sitemap submission.
+
+
+
+Indexing diagnostics.
+
+9. Google AdSense readiness
+
+Build the website to be suitable for future Google AdSense review.
+
+Do not claim that implementation guarantees approval.
+
+Required website pages
+
+Create professionally written pages for:
+
+
+
+
+
+About Us.
+
+
+
+Contact Us.
+
+
+
+Privacy Policy.
+
+
+
+Terms and Conditions.
+
+
+
+Disclaimer.
+
+
+
+Cookie Policy.
+
+
+
+Editorial Policy.
+
+Use placeholders for unknown company details and contact information. Do not invent a company address, phone number or business registration.
+
+Privacy and data protection
+
+
+
+
+
+Explain what data is collected.
+
+
+
+Explain analytics usage.
+
+
+
+Explain advertising and cookies.
+
+
+
+Explain third-party services.
+
+
+
+Explain how users can contact the website.
+
+
+
+Provide appropriate privacy choices and consent mechanisms where legally required.
+
+
+
+Do not claim that the website collects no data if analytics or advertising tools are enabled.
+
+
+
+Do not store calculator inputs unnecessarily.
+
+
+
+Do not expose private inputs through URLs or logs.
+
+AdSense integration preparation
+
+
+
+
+
+Create clearly identified advertisement placement components.
+
+
+
+Keep advertisement areas disabled until the website is approved.
+
+
+
+Support adding the official AdSense script through environment configuration.
+
+
+
+Prepare an ads.txt file location.
+
+
+
+Include instructions for publishing the publisher-specific ads.txt entry after account setup.
+
+
+
+Avoid fake advertisement placeholders that resemble navigation or calculator buttons.
+
+
+
+Do not place advertisements where they interfere with calculator functionality.
+
+
+
+Avoid intrusive interstitials.
+
+
+
+Do not encourage accidental clicks.
+
+Do not invent a publisher ID or AdSense verification code.
+
+Provide clear instructions for adding the official verification code once it is supplied.
+
+Content and navigation quality
+
+Ensure the website is complete before AdSense submission.
+
+Do not leave:
+
+
+
+
+
+Empty pages.
+
+
+
+Placeholder calculator pages.
+
+
+
+Broken links.
+
+
+
+Under-construction sections.
+
+
+
+Duplicate content.
+
+
+
+Unfinished navigation.
+
+
+
+Fake testimonials.
+
+
+
+Copied articles.
+
+Prioritise unique and useful content and clear navigation.
+
+10. Performance and Core Web Vitals
+
+Optimise for:
+
+
+
+
+
+Largest Contentful Paint (LCP).
+
+
+
+Interaction to Next Paint (INP).
+
+
+
+Cumulative Layout Shift (CLS).
+
+Target Google's recommended good Core Web Vitals thresholds.
+
+Implement:
+
+
+
+
+
+Minimal JavaScript.
+
+
+
+Code splitting.
+
+
+
+Optimised fonts.
+
+
+
+Optimised images.
+
+
+
+Lazy loading for non-critical imagery.
+
+
+
+Avoid layout shifts.
+
+
+
+Avoid unnecessary third-party scripts.
+
+
+
+Efficient React rendering.
+
+
+
+Static generation wherever suitable.
+
+
+
+Caching and compression through the hosting platform.
+
+
+
+Responsive design.
+
+Aim for strong Lighthouse performance on mobile and desktop, without sacrificing accessibility or functionality.
+
+Do not promise a particular Lighthouse score without testing.
+
+11. Calculator functionality requirements
+
+Every calculator must be genuinely functional.
+
+Implement:
+
+
+
+
+
+Accurate mathematical formulas.
+
+
+
+Correct date calculations.
+
+
+
+Leap-year handling.
+
+
+
+Decimal precision.
+
+
+
+Input validation.
+
+
+
+Empty-input handling.
+
+
+
+Zero-value handling.
+
+
+
+Negative-number handling where appropriate.
+
+
+
+Unit conversions.
+
+
+
+Clear error messages.
+
+
+
+Reset button.
+
+
+
+Copy result button.
+
+
+
+Share result button using the Web Share API when supported.
+
+
+
+Graceful fallback when browser sharing is unavailable.
+
+
+
+Keyboard accessibility.
+
+
+
+Mobile-friendly input controls.
+
+Do not use placeholder calculations.
+
+Write unit tests for the calculation functions, especially edge cases.
+
+Keep calculation logic separate from the user interface.
+
+Use TypeScript types and reusable utility functions.
+
+12. Accessibility
+
+Follow WCAG accessibility principles.
+
+Include:
+
+
+
+
+
+Proper form labels.
+
+
+
+Keyboard navigation.
+
+
+
+Visible focus states.
+
+
+
+Accessible contrast.
+
+
+
+Screen-reader-friendly results.
+
+
+
+Semantic landmarks.
+
+
+
+Accessible error messages.
+
+
+
+Buttons with descriptive labels.
+
+
+
+Accessible mobile navigation.
+
+Do not communicate information through colour alone.
+
+13. Security and privacy
+
+
+
+
+
+Validate all user inputs.
+
+
+
+Avoid unsafe HTML rendering.
+
+
+
+Keep secrets in environment variables.
+
+
+
+Do not commit API keys.
+
+
+
+Use HTTPS in production.
+
+
+
+Do not collect sensitive health information without a genuine need.
+
+
+
+Do not expose server secrets in client bundles.
+
+
+
+Add suitable security headers where compatible with Next.js and Netlify.
+
+
+
+Keep dependencies updated.
+
+
+
+Avoid unnecessary backend storage.
+
+14. Netlify deployment
+
+Prepare the application for Netlify.
+
+Requirements:
+
+
+
+
+
+Correct Next.js compatibility.
+
+
+
+Correct build configuration.
+
+
+
+Correct environment variable setup.
+
+
+
+Working dynamic routes.
+
+
+
+Working static routes.
+
+
+
+Working metadata.
+
+
+
+Working sitemap and robots.txt.
+
+
+
+Working direct URL access.
+
+
+
+Working refresh on nested routes.
+
+
+
+Correct production domain configuration.
+
+
+
+HTTPS.
+
+
+
+Redirect rules for preferred hostname and trailing-slash conventions.
+
+Test the deployed website, not just the local development server.
+
+Do not add unnecessary manual rewrites that conflict with Netlify's Next.js runtime.
+
+15. Suggested project structure
+
+Use a clean and scalable structure similar to:
+
+app/ layout.tsx page.tsx globals.css robots.ts sitemap.ts manifest.ts not-found.tsx
+
+everyday/ page.tsx
+
+health/ page.tsx
+
+percentage-calculator/ page.tsx
+
+average-calculator/ page.tsx
+
+age-calculator/ page.tsx
+
+date-calculator/ page.tsx
+
+days-between-dates-calculator/ page.tsx
+
+discount-calculator/ page.tsx
+
+profit-loss-calculator/ page.tsx
+
+ratio-calculator/ page.tsx
+
+fraction-calculator/ page.tsx
+
+time-calculator/ page.tsx
+
+time-duration-calculator/ page.tsx
+
+unit-converter/ page.tsx
+
+bmi-calculator/ page.tsx
+
+bmr-calculator/ page.tsx
+
+tdee-calculator/ page.tsx
+
+calorie-calculator/ page.tsx
+
+ideal-weight-calculator/ page.tsx
+
+body-fat-calculator/ page.tsx
+
+protein-calculator/ page.tsx
+
+water-intake-calculator/ page.tsx
+
+pregnancy-weeks-to-months/ page.tsx
+
+pregnancy-due-date-calculator/ page.tsx
+
+pregnancy-calculator/ page.tsx
+
+ovulation-calculator/ page.tsx
+
+about/ page.tsx
+
+contact/ page.tsx
+
+privacy-policy/ page.tsx
+
+terms/ page.tsx
+
+disclaimer/ page.tsx
+
+editorial-policy/ page.tsx
+
+cookie-policy/ page.tsx
+
+components/ layout/ navigation/ footer/ calculators/ ui/ seo/ ads/
+
+lib/ calculations/ validation/ seo/ constants/ analytics/
+
+public/ favicon.ico icon.png apple-icon.png logo/ images/
+
+tests/
+
+The structure can be improved where appropriate, but preserve clean separation between calculator logic, page content, SEO and reusable components.
+
+16. Testing and quality assurance
+
+Before considering the project complete, test:
+
+
+
+
+
+All calculator formulas.
+
+
+
+Every calculator's individual URL.
+
+
+
+Direct URL loading.
+
+
+
+Page refresh.
+
+
+
+Browser back and forward navigation.
+
+
+
+Mobile responsiveness.
+
+
+
+Tablet responsiveness.
+
+
+
+Desktop responsiveness.
+
+
+
+Keyboard navigation.
+
+
+
+Form validation.
+
+
+
+Copy and share functions.
+
+
+
+Internal links.
+
+
+
+Footer links.
+
+
+
+Metadata uniqueness.
+
+
+
+Canonical URL correctness.
+
+
+
+Sitemap validity.
+
+
+
+Robots.txt validity.
+
+
+
+Structured data validity.
+
+
+
+Favicon loading.
+
+
+
+Netlify production deployment.
+
+
+
+404 page.
+
+
+
+Accessibility.
+
+
+
+Performance.
+
+Run TypeScript checks, linting and automated tests.
+
+Fix all critical errors before delivery.
+
+17. Development workflow
+
+Work in the following order:
+
+Phase 1:
+
+
+
+
+
+Inspect the existing repository.
+
+
+
+Establish the brand design system.
+
+
+
+Set up the Next.js architecture.
+
+
+
+Create global layout and navigation.
+
+
+
+Create homepage and category pages.
+
+Phase 2:
+
+
+
+
+
+Build reusable calculator components.
+
+
+
+Implement calculation logic.
+
+
+
+Build individual calculator pages.
+
+
+
+Implement validation and edge cases.
+
+Phase 3:
+
+
+
+
+
+Add unique page metadata.
+
+
+
+Implement technical SEO.
+
+
+
+Add favicon and logo.
+
+
+
+Add structured data.
+
+
+
+Generate sitemap and robots.txt.
+
+
+
+Implement internal linking.
+
+Phase 4:
+
+
+
+
+
+Create About, Contact, Privacy, Terms, Disclaimer, Editorial and Cookie pages.
+
+
+
+Add analytics preparation.
+
+
+
+Add AdSense integration preparation.
+
+Phase 5:
+
+
+
+
+
+Run tests.
+
+
+
+Check accessibility.
+
+
+
+Check SEO.
+
+
+
+Check performance.
+
+
+
+Deploy to Netlify.
+
+
+
+Verify production URLs.
+
+18. Final delivery requirements
+
+Do not stop after producing a plan.
+
+Actually implement the application in the project repository.
+
+At the end, provide:
+
+
+
+
+
+Summary of implemented functionality.
+
+
+
+Complete list of calculator URLs.
+
+
+
+Project folder structure.
+
+
+
+Dependencies installed.
+
+
+
+Build and test results.
+
+
+
+SEO implementation checklist.
+
+
+
+AdSense readiness checklist.
+
+
+
+Netlify deployment instructions.
+
+
+
+Environment variables required.
+
+
+
+Google Search Console setup instructions.
+
+
+
+Google Analytics setup instructions.
+
+
+
+Any remaining tasks requiring real domain or account details.
+
+If something cannot be completed without a domain, publisher ID, account credentials, analytics ID or other information, clearly identify it as a configuration step rather than inventing values.
+
+19. Non-negotiable requirements
+
+
+
+
+
+Professional white-background design.
+
+
+
+Bright sky-blue buttons.
+
+
+
+Fully responsive.
+
+
+
+Fully functional calculators.
+
+
+
+One individual SEO-friendly URL per calculator.
+
+
+
+Direct Google search landing on the relevant calculator page.
+
+
+
+Unique metadata for every page.
+
+
+
+Correct favicon implementation.
+
+
+
+Search-engine crawlable content.
+
+
+
+XML sitemap and robots.txt.
+
+
+
+Google Search Console readiness.
+
+
+
+AdSense readiness.
+
+
+
+Fast performance.
+
+
+
+Privacy-conscious implementation.
+
+
+
+No fake content.
+
+
+
+No keyword stuffing.
+
+
+
+No copied articles.
+
+
+
+No broken links.
+
+
+
+No placeholder calculator functionality.
+
+
+
+No misleading health claims.
+
+Build a genuinely useful, trustworthy, technically sound calculator platform. Prioritise user experience, accuracy, organic search discoverability and long-term maintainability over superficial SEO tricks.
+
+
+
+20. ADVANCED SEO, INTERNATIONALISATION, COMPLIANCE AND MAINTENANCE REQUIREMENTS
+
+Implement the following additional requirements as part of the production-ready website.
+
+A. International SEO: India and USA
+
+
+
+
+
+Support visitors from India and the United States.
+
+
+
+Use appropriate local units, including kg/cm and lb/ft/in.
+
+
+
+Support INR and USD wherever currency calculations are relevant.
+
+
+
+Use country-specific explanations and examples when genuinely useful.
+
+
+
+Keep one primary canonical URL for each calculator unless separate regional pages provide substantial unique value.
+
+
+
+Implement hreflang only when genuinely separate regional or language versions exist.
+
+
+
+Do not create duplicate country pages just to target additional keywords.
+
+
+
+Do not automatically redirect visitors based only on their location.
+
+
+
+Keep the default website language English.
+
+B. Google Search Console monitoring
+
+Prepare the website for Google Search Console.
+
+Provide documentation explaining how to:
+
+
+
+
+
+Verify the website domain.
+
+
+
+Submit the XML sitemap.
+
+
+
+Inspect individual calculator URLs.
+
+
+
+Monitor indexed and non-indexed pages.
+
+
+
+Monitor impressions, clicks and CTR.
+
+
+
+Identify search queries.
+
+
+
+Detect crawling and indexing errors.
+
+
+
+Monitor Core Web Vitals reports.
+
+Do not claim that submitting a sitemap guarantees indexing.
+
+C. Content quality and editorial trust
+
+For calculator pages, particularly health-related pages:
+
+
+
+
+
+Include credible references for formulas and important health information.
+
+
+
+Provide an editorial policy.
+
+
+
+Identify the author or editorial team using genuine information supplied by the website owner.
+
+
+
+Include a last-reviewed date.
+
+
+
+Explain assumptions, limitations and calculation methods.
+
+
+
+Do not invent medical experts, credentials, reviewers or testimonials.
+
+
+
+Do not display fake review ratings.
+
+
+
+Update content when formulas, standards or relevant guidance change.
+
+D. Cookie consent and privacy
+
+
+
+
+
+Implement an appropriate cookie consent mechanism.
+
+
+
+Distinguish necessary cookies from analytics and advertising cookies.
+
+
+
+Allow users to make and change relevant consent choices.
+
+
+
+Respect applicable privacy and consent requirements.
+
+
+
+Avoid loading non-essential tracking or advertising technologies before consent where required.
+
+
+
+Include a privacy policy explaining analytics, advertising and third-party services.
+
+
+
+Do not collect unnecessary personal or health information.
+
+E. Google AdSense compliance
+
+
+
+
+
+Review current Google AdSense publisher policies before launch.
+
+
+
+Keep ad placements disabled until approval.
+
+
+
+Clearly distinguish advertisements from calculator controls and navigation.
+
+
+
+Avoid accidental-click layouts.
+
+
+
+Avoid intrusive advertisements.
+
+
+
+Implement ads.txt using the exact publisher information supplied by Google.
+
+
+
+Provide a configuration location for the official AdSense publisher ID.
+
+
+
+Never invent publisher IDs, verification codes or approval status.
+
+
+
+Do not guarantee AdSense approval.
+
+F. Automated SEO testing
+
+Create an SEO validation checklist or automated test script.
+
+Check for:
+
+
+
+
+
+Missing page titles.
+
+
+
+Duplicate page titles.
+
+
+
+Missing or duplicate meta descriptions.
+
+
+
+Missing H1 headings.
+
+
+
+Incorrect canonical URLs.
+
+
+
+Broken internal links.
+
+
+
+Missing image alt attributes.
+
+
+
+Invalid sitemap URLs.
+
+
+
+Incorrect robots directives.
+
+
+
+Missing or invalid structured data.
+
+
+
+Orphan calculator pages.
+
+
+
+Accidental noindex tags.
+
+
+
+Incorrect HTTP status codes.
+
+Run these checks before production deployment.
+
+G. Accessibility testing
+
+Follow WCAG 2.2 AA principles where practical.
+
+Test:
+
+
+
+
+
+Keyboard navigation.
+
+
+
+Visible focus indicators.
+
+
+
+Form labels.
+
+
+
+Error messages.
+
+
+
+Screen-reader compatibility.
+
+
+
+Text and button contrast.
+
+
+
+Accessible calculator results.
+
+
+
+Mobile navigation.
+
+
+
+Responsive layouts.
+
+Do not rely on colour alone to communicate results or errors.
+
+H. Backup, maintenance and monitoring
+
+Provide a maintenance guide covering:
+
+
+
+
+
+GitHub source-code backups.
+
+
+
+Dependency update procedures.
+
+
+
+Security updates.
+
+
+
+Netlify deployment history and rollback.
+
+
+
+Environment variable documentation.
+
+
+
+Automated tests before deployment.
+
+
+
+Broken-link monitoring.
+
+
+
+Periodic SEO audits.
+
+
+
+Analytics monitoring.
+
+
+
+Content and formula review schedules.
+
+Ensure that changes to calculator logic are tested before being deployed.
+
+Final acceptance criteria
+
+The project is complete only when the implemented website has been tested against the original master prompt and this additional section.
+
+Provide a checklist separating:
+
+
+
+
+
+Implemented and tested.
+
+
+
+Implemented but awaiting external configuration.
+
+
+
+Not implemented, with a clear reason.
+
+Never mark an external service as configured without verifying it.
