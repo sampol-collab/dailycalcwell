@@ -21,7 +21,7 @@ export const ROOT_METADATA: Metadata = {
   applicationName: SITE_NAME,
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
+      { url: "/fevicon.svg", type: "image/svg+xml", sizes: "any" },
       { url: "/icon.png", type: "image/png", sizes: "96x96" },
       { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
     ],

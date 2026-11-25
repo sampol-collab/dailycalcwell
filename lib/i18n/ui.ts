@@ -374,7 +374,7 @@ const EN_UI: UiDictionary = {
     heroTitle: "Free Online Calculators for Everyday Life and Health",
     heroSubtitle:
       "Use our free online calculators to calculate percentages, averages, age, dates, BMI, daily calorie requirements, pregnancy dates and more. Get quick, accurate and easy-to-understand results in metric or imperial units.",
-    categoryToolsLabel: "Category · 12 Tools",
+    categoryToolsLabel: "Category",
     browseEveryday: "Browse Everyday Calculators",
     browseHealth: "Browse Health Calculators",
     popularHeading: "Popular Calculators",
@@ -795,7 +795,7 @@ const HI_UI: UiDictionary = {
     heroTitle: "दैनिक जीवन और स्वास्थ्य के लिए निःशुल्क ऑनलाइन कैलकुलेटर",
     heroSubtitle:
       "प्रतिशत, औसत, उम्र, तारीख़, BMI, दैनिक कैलोरी आवश्यकता, गर्भावस्था तिथियों और अधिक की गणना तुरंत करें। मीट्रिक (kg, cm, ₹) और इंपीरियल (lb, ft/in, $) दोनों इकाइयों में स्पष्ट और सटीक परिणाम प्राप्त करें।",
-    categoryToolsLabel: "श्रेणी · 12 उपकरण",
+    categoryToolsLabel: "श्रेणी",
     browseEveryday: "दैनिक कैलकुलेटर देखें",
     browseHealth: "स्वास्थ्य कैलकुलेटर देखें",
     popularHeading: "लोकप्रिय कैलकुलेटर",
@@ -1217,7 +1217,7 @@ const ES_UI: UiDictionary = {
     heroTitle: "Calculadoras Gratis en Línea para la Vida Diaria y Salud",
     heroSubtitle:
       "Calcula porcentajes, promedios, edad exacta, fechas, IMC, requerimientos calóricos diarios, fechas de embarazo y mucho más en unidades métricas o imperiales de forma rápida y clara.",
-    categoryToolsLabel: "Categoría · 12 Herramientas",
+    categoryToolsLabel: "Categoría",
     browseEveryday: "Explorar Calculadoras Diarias",
     browseHealth: "Explorar Calculadoras de Salud",
     popularHeading: "Calculadoras Populares",
@@ -1639,7 +1639,7 @@ const FR_UI: UiDictionary = {
     heroTitle: "Calculatrices en Ligne Gratuites pour le Quotidien et la Santé",
     heroSubtitle:
       "Calculez facilement pourcentages, moyennes, âge exact, dates, IMC, calories quotidiennes, dates de grossesse et plus encore en unités métriques ou impériales.",
-    categoryToolsLabel: "Catégorie · 12 Outils",
+    categoryToolsLabel: "Catégorie",
     browseEveryday: "Voir les Calculatrices Quotidiennes",
     browseHealth: "Voir les Calculatrices Santé",
     popularHeading: "Calculatrices Populaires",
@@ -2061,7 +2061,7 @@ const DE_UI: UiDictionary = {
     heroTitle: "Kostenlose Online-Rechner für Alltag und Gesundheit",
     heroSubtitle:
       "Berechnen Sie schnell Prozente, Durchschnitte, Alter, Daten, BMI, täglichen Kalorienbedarf, Schwangerschaftsdaten und mehr in metrischen oder imperialen Einheiten.",
-    categoryToolsLabel: "Kategorie · 12 Tools",
+    categoryToolsLabel: "Kategorie",
     browseEveryday: "Alltagsrechner ansehen",
     browseHealth: "Gesundheitsrechner ansehen",
     popularHeading: "Beliebte Rechner",
@@ -2483,7 +2483,7 @@ const PT_UI: UiDictionary = {
     heroTitle: "Calculadoras Online Gratuitas para o Dia a Dia e Saúde",
     heroSubtitle:
       "Calcule porcentagens, médias, idade exata, datas, IMC, necessidades calóricas diárias, datas de gravidez e muito mais com resultados rápidos e claros em unidades métricas ou imperiais.",
-    categoryToolsLabel: "Categoria · 12 Ferramentas",
+    categoryToolsLabel: "Categoria",
     browseEveryday: "Explorar Calculadoras Diárias",
     browseHealth: "Explorar Calculadoras de Saúde",
     popularHeading: "Calculadoras Populares",

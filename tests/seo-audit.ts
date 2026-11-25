@@ -142,6 +142,7 @@ const requiredRoutes = [
   "app/sitemap.ts",
   "app/manifest.ts",
   "public/favicon.ico",
+  "public/fevicon.svg",
   "public/icon.png",
   "public/apple-icon.png",
   "public/og-image.png",
